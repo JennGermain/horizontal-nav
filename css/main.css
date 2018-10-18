@@ -1,3 +1,8 @@
+header {
+  background-color: #79756f;
+  padding: .75em;
+}
+
 h1 {
   font-family: bevan, sans-serif;
   line-height: 1.5;
@@ -9,21 +14,21 @@ ul {
   font-family: bevan, sans-serif;
   line-height: 1.5;
   color: #fff;
-
 }
 
 nav {
-  background-color: #79756f;
+  align-items: center;
 }
 
 nav ul{
   list-style: none;
-  display: inline;
+  align-self: center;
 }
 
 nav li {
   background-color: #713837;
   padding: .5em;
-  display: inline;
+  display: inline-block;
   margin: .3em;
+  text-align: center;
 }
